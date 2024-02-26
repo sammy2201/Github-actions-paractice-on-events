@@ -10,8 +10,8 @@ on:
   push:
     branshes:
       - master
-    paths-ignore:
-      - ".github/workflows/*"
+    # paths-ignore:
+    #   - ".github/workflows/*"
 
 jobs:
   deploy:
